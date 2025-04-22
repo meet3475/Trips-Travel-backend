@@ -20,8 +20,12 @@ mongoose
   .catch((err) => console.log(err));
 
 // Middleware for CORS and JSON parsing
+// const allowedOrigins = [
+//   "https://trips-travel.vercel.app",
+//   "http://localhost:5173",
+// ];
 const allowedOrigins = [
-  "https://trips-travel.vercel.app",
+  "https://trips-travel-backend.vercel.app/",
   "http://localhost:5173",
 ];
 app.use(
