@@ -25,7 +25,7 @@ mongoose
 //   "http://localhost:5173",
 // ];
 const allowedOrigins = [
-  "https://trips-travel-backend.vercel.app/",
+  "https://trips-travel-xi.vercel.app",
   "http://localhost:5173",
 ];
 app.use(
